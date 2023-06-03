@@ -1,8 +1,230 @@
+<!DOCTYPE html>
+
 <html>
-  <head>
-    <title>AnnaYeh</title>
-  </head>
-  <body>
-    <p>這是Anna 的 GitHub</p>
-  </body>
+    <head>
+        <title>Anna's handmade shop</title>
+        <meta charset="UTF-8">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+        <style>
+            .navbar{
+                background-color:#FEBEB0 !important;
+            }
+            .navbar-brand{
+                color:#F7F1ED;
+            }
+            .active{
+                color:#3D5A5B !important;
+            }
+            .nav-link{
+                color:#2F365F;
+            }
+            .nav-link:hover{
+                border-top: 2px white solid;
+                border-bottom: 2px white solid;
+            }
+            .p-5{
+                background-image: url('image/7.jpg');
+                background-size:cover;
+            
+            }
+            video{
+                width:100%;
+                border-radius:8px;
+                padding:8px;
+                border:3px #FEBEB0 solid;
+                box-shadow: 3px 3px 3px gray;
+                margin-top: 10px;
+                
+            }
+            .div-img{ 
+            width:100%;
+            height:70%;
+            border-radius:8px;
+            padding:8px;
+            border:3px #FEBEB0 solid;
+            box-shadow: 3px 3px 3px gray;
+            margin-top: 10px;
+            margin-bottom: 50px;
+             
+                        }
+            .dt{
+                text-align:center;
+                padding:10px;
+                margin-top:40px;
+                margin-left:20px;
+                
+            }
+           
+            audio{ 
+            width:100%;
+            border-radius:8px;
+            padding:8px;
+            border:3px #FEBEB0 solid;
+            box-shadow: 3px 3px 3px gray;
+            
+            }
+            footer{
+                position:fixed;
+                bottom:0px;
+                width:100%;
+                text-align: center;
+                background-color:#F7F1ED;
+                padding:5px;
+            }
+           
+        </style>
+        
+    </head>
+    <body>
+        <!--導覽列-->
+        <nav class="navbar navbar-expand-lg bg-light fixed-top" > 
+            <div class="fixed-top"></div>
+        <div class="container-fluid">
+            
+          <a class="navbar-brand" href="index.html">Anna's Handmade Shop</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">首頁</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">關於我們</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="news.html">新消息</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  商品
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="postcard.html">明信片</a></li>
+                  <li><a class="dropdown-item" href="waxseal.html">封蠟</a></li>
+                  <li><a class="dropdown-item" href="smallthing.html">雜貨。小物</a></li>
+                  <li><a class="dropdown-item" href="weave.html">編織</a></li>
+                  
+                </ul>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="service.html">服務</a>
+              </li>
+               
+            </ul>
+              <form class="d-flex" role="search" action='http://www.google.com/search' target="blank">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name='q'>
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+        </nav>
+        
+        <!--圖片輪播區-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="image/6-1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="image/27-1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="image/18-1.jpg" class="d-block w-100" alt="...">
+              </div>
+                <div class="carousel-item">
+                 <img src="image/4-1.jpg" class="d-block w-100" alt="...">
+                
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+  </button>
+</div>
+        <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+       <dl class="dt">
+      <dt><h2>★ 藍染風格 | 玄關櫃★ </h2></dt>
+    <div class="carousel-item active">
+     <a href="smallthing.html"><img src="image/38.png" width="1280" height="800" alt="..." ></a>
+    </div>
+    <div class="carousel-item">
+        <img src="image/40.png"width="1280" height="800" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="image/39.png" width="1280" height="800" alt="...">
+    </div></dl> 
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+        
+        
+        
+       <!--主要內容區 -->   
+        <div class="container">
+          
+            <div class="row">
+                
+                <div class="col-xl-4 col-md-6">
+                    <a href="postcard.html"><img src="image/postcard/1-2.jpg" class="div-img" alt="alt"></a>
+                    
+                </div>
+                
+                <div class="col-xl-4 col-md-6">
+                <video controls>
+                    <source src="video/1.mp4" type="video/mp4">
+                </video>
+                    <hr>
+                <audio controls>
+                    <source src="baha.mp3" type="audio/mpeg">  
+                </audio>
+                </div>
+                
+                <div class="col-xl-4 col-md-12">
+                    <picture>
+                    <source srcset="image/small/2-15.jpg" media="(max-width:767px)">
+                    <source srcset="image/weave/4-18.jpg" media="(max-width:1199px)">
+                    <a href="waxseal.html"><img src="image/wax/3-38.jpg" class="div-img" alt="alt"></a> 
+                </picture>
+                   
+                
+            
+            </div>
+            </div>
+        </div>
+       
+       
+       
+               
+       
+    </body>
+    <footer>
+        版權所有 翻拷必究
+    </footer>
 </html>

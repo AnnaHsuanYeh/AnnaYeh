@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Anna's handmade shop</title>
+        <meta charset="UTF-8">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+        <style>
+            .navbar{
+                background-color:#FEBEB0 !important;
+            }
+            .navbar-brand{
+                color:#F7F1ED;
+            }
+            .active{
+                color:#3D5A5B !important;
+            }
+            .nav-link{
+                color:#2F365F;
+            }
+            .nav-link:hover{
+                border-top: 2px white solid;
+                border-bottom: 2px white solid;
+            }
+            .p-5{
+                background-image: url('image/26.jpg');
+                background-size:cover;
+                height: 500px;
+            
+            }
+            video{
+                width:100%;
+                
+                border-radius:8px;
+                padding:8px;
+                border:3px #FEBEB0 solid;
+                box-shadow: 3px 3px 3px gray;
+            }
+            .div-img{ 
+            width:100%;
+            height:100%;
+            border-radius:8px;
+            padding:8px;
+            border:3px #FEBEB0 solid;
+            box-shadow: 3px 3px 3px gray;
+            
+            }
+            
+            audio{ 
+            width:100%;
+            border-radius:8px;
+            padding:8px;
+            border:3px #FEBEB0 solid;
+            box-shadow: 3px 3px 3px gray;
+            
+            }
+            footer{
+                position:fixed;
+                bottom:0px;
+                width:100%;
+                text-align: center;
+                background-color:#F7F1ED;
+                padding:5px;
+            }
+            #ex1{margin:10px;}
+            
+            .n-img{ 
+            width:300px;
+            height:200px;
+            border-radius:8px;
+            text-align:center;
+            margin-right:35px;
+            
+            }
+            .ta{
+                margin-left:20px;
+                margin-right:20px;}
+            
+            .ptable{
+                margin-right:50px;
+                text-align:center;
+                margin-bottom: 40px;}
+            .btn{ 
+                background-color:#FEBEB0;
+                color:#3D5A5B;
+                border:1px #3D5A5B solid;
+                width: 120px;
+                height:40px;
+                text-align: center;
+                font-weight:bolder;
+            }
+            .btn:hover{
+                background-color:#F7F1ED;
+                color:#3D5A5B;}
+            .btn:focus{
+                background-color:#F7F1ED;
+                color:#3D5A5B;}
+            
+            .btn-clo{ 
+                background-color:#F7F1ED;
+                border-radius:5px;
+                border: 1px solid #F7F1ED;
+            }
+            .btn-clo:hover{
+                background-color:#FEBEB0;
+                border: 1px solid #2F365F; 
+                color:#2F365F;}
+            .display-5{ color:#F7F1ED;}
+            
+        </style>
+        
+    </head>
+    <body>
+        <!--導覽列-->
+        <nav class="navbar navbar-expand-lg bg-light fixed-top" > 
+            <div class="fixed-top"></div>
+        <div class="container-fluid">
+           
+          <a class="navbar-brand" href="index.html">Anna's Handmade Shop</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">首頁</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="about.html">關於我們</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="news.html">新消息</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  商品
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="postcard.html">明信片</a></li>
+                  <li><a class="dropdown-item" href="waxseal.html">封蠟</a></li>
+                  <li><a class="dropdown-item" href="smallthing.html">雜貨。小物</a></li>
+                  <li><a class="dropdown-item" href="weave.html">編織</a></li>
+                  
+                </ul>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="service.html">服務</a>
+              </li>
+               
+            </ul>
+              <form class="d-flex" role="search" action='http://www.google.com/search' target="blank">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name='q'>
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+        </nav>
+        
+        <!--標頭區-->
+        <div class="p-5 mb-4 bg-light">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">雜貨。小物</h1>
+        <p class="col-md-8 fs-4"></p>
+        <button class="btn" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">明信片交換</button>
+      </div>
+    </div>
+        
+        <div class="ta">
+            <div>
+                <h3>★雜貨。小物</h3>
+                <p>每到了家居家飾店就走不出來嗎？如果妳超愛生活雜貨用品，千萬別錯過，讓人逛到流連忘返、買到手軟的雜貨小物。</p>
+    <table>
+        <tr>
+            <td>
+                <img src="image/small/2-26.jpg" class="n-img" alt="alt" >
+                <p class="ptable">陶瓷小鍋</p>
+            </td>
+            <td>
+                <img src="image/38.png" class="n-img" alt="alt" >
+                <p class="ptable">藍染玄關櫃</p> 
+            </td>
+            <td>
+                <img src="image/small/2-29.jpg" class="n-img" alt="alt" >
+                <p class="ptable">木製鋼筆</p> 
+            </td>
+            <td>
+                <img src="image/small/2-27.jpg" class="n-img" alt="alt" >
+                <p class="ptable">陶瓷茶壺組</p>
+            </td>
+            
+        </tr> 
+    </table>
+    <table>
+        <tr>
+            <td>
+                <img src="image/small/2-31.jpg" class="n-img" alt="alt" >
+                <p class="ptable">黃銅耳環</p>
+            </td>
+            <td>
+                <img src="image/small/2-28.jpg" class="n-img" alt="alt" >
+                <p class="ptable">不織布抱枕</p> 
+            </td>
+            <td>
+                <img src="image/small/2-25.jpg" class="n-img" alt="alt" >
+                <p class="ptable">狐狸皮革手拿包</p> 
+            </td>
+            <td>
+                <img src="image/small/2-30.jpg" class="n-img" alt="alt" >
+                <p class="ptable">項鍊</p>
+            </td>
+            
+        </tr> 
+    </table>
+    <table>
+        <tr>
+            <td>
+                <img src="image/small/2-18.jpg" class="n-img" alt="alt" >
+                <p class="ptable">馬賽克燈</p>
+            </td>
+            <td>
+                <img src="image/small/2-19.jpg" class="n-img" alt="alt" >
+                <p class="ptable">手工香皂</p> 
+            </td>
+            <td>
+                <img src="image/small/2-20.jpg" class="n-img" alt="alt" >
+                <p class="ptable">陶瓷風鈴</p> 
+            </td>
+            <td>
+                <img src="image/small/2-22.jpg" class="n-img" alt="alt" >
+                <p class="ptable">陶瓷小碗</p>
+            </td>
+            </tr>
+    </table>
+            </div>
+        </div>
+        
+        
+       
+    </body>
+    <footer>
+        版權所有 翻拷必究
+    </footer>
+    
+      <!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">明信片交換說明</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <p>歡迎來交換虎年明信片，收到您們的明信片後，才會回寄喔!!</p>
+          <img src="image/postcard/1-25.jpg" alt="alt" style='width:100%'/>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn-clo" data-bs-dismiss="modal">關閉</button>
+        <a href="https://www.surveycake.com/s/zkLeY" target="blank"><button type="button" class="btn-clo">前往填寫表單</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+</html>

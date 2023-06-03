@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Anna's handmade shop</title>
+        <meta charset="UTF-8">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+        <style>
+            .navbar{
+                background-color:#FEBEB0 !important;
+            }
+            .navbar-brand{
+                color:#F7F1ED;
+            }
+            .active{
+                color:#3D5A5B !important;
+            }
+            .nav-link{
+                color:#2F365F;
+            }
+            .nav-link:hover{
+                border-top: 2px white solid;
+                border-bottom: 2px white solid;
+            }
+            .p-5{
+                background-image: url('image/7.jpg');
+                background-size:cover;
+            
+            }
+            video{
+                width:100%;
+                
+                border-radius:8px;
+                padding:8px;
+                border:3px #FEBEB0 solid;
+                box-shadow: 3px 3px 3px gray;
+            }
+            .n-img{ 
+            width:280px;
+            height:200px;
+            border-radius:8px;
+            padding:8px;
+            border:3px #FEBEB0 solid;
+            text-align:center;
+            }
+            .ptable{ text-align:center;}
+            .c-img{margin-right:80px; 
+                margin-bottom: 30px;
+                
+            }
+            .c-ul{ margin-top: 80px;
+            }
+            
+            audio{ 
+            width:100%;
+            border-radius:8px;
+            padding:8px;
+            border:3px #FEBEB0 solid;
+            box-shadow: 3px 3px 3px gray;
+            
+            }
+            footer{
+                position:absolute;
+                
+                bottom:0px;
+                width:100%;
+                text-align: center;
+                background-color:#F7F1ED;
+                padding:5px;
+            }
+            .table { margin:50px; /*外邊距*/}
+        </style>
+        
+    </head>
+    <body>
+        <!--導覽列-->
+        <nav class="navbar navbar-expand-lg bg-light fixed-top" > 
+            <div class="fixed-top"></div>
+        <div class="container-fluid">
+            
+          <a class="navbar-brand" href="index.html">Anna's Handmade Shop</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">首頁</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="about.html">關於我們</a>
+              </li>
+              
+              <li class="nav-item active">
+                <a class="nav-link" href="news.html">新消息</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  商品
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="postcard.html">明信片</a></li>
+                  <li><a class="dropdown-item" href="waxseal.html">封蠟</a></li>
+                  <li><a class="dropdown-item" href="smallthing.html">雜貨。小物</a></li>
+                  <li><a class="dropdown-item" href="weave.html">編織</a></li>
+                  
+                </ul>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="service.html">服務</a>
+              </li>
+               
+            </ul>
+              <form class="d-flex" role="search" action='http://www.google.com/search' target="blank">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name='q'>
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+        </nav>
+        
+    
+        <!--主要內容 -->
+        
+        <div class="container">
+            <div class="row">
+        <ul class="c-ul">
+            <li><h2>七夕情人節 | 手作卡片課程</h2></li>     
+        </ul> 
+                <img src="image/35.png" class="c-img" alt="00">
+                <ul class="c-ul">
+            <li><h2>封蠟手作體驗課程</h2></li>     
+        </ul> 
+                <img src="image/37.png" class="c-img" alt="00">
+                
+                
+        <ul>
+            <li><h2>人氣商品</h2></li> 
+        </ul>
+    <table>
+        <tr>
+            <td>
+                <img src="image/postcard/1-24.jpg" class="n-img" alt="alt" >
+                <a href="postcard.html"><p class="ptable">手繪花朵小卡</p></a>
+            </td>
+            <td>
+                <img src="image/small/2-1.jpg" class="n-img" alt="alt" >
+                <a href="samallthing.html"><p class="ptable">生活小物</p></a> 
+            </td>
+            <td>
+                <img src="image/postcard/1-6.jpg" class="n-img" alt="alt" >
+                <p class="ptable">海洋明信片</p> 
+            </td>
+            <td>
+                <img src="image/postcard/1-8.jpg" class="n-img" alt="alt" >
+                <p class="ptable">黑白明信片</p>
+            </td>
+    </table>
+    <table>
+        <tr>
+            <td>
+                <img src="image/weave/4-2.jpg" class="n-img" alt="alt" >
+                <p class="ptable">葉片書籤</p>
+            </td>
+            
+            <td>
+                <img src="image/weave/4-15.jpg" class="n-img" alt="alt" >
+                <p class="ptable">編織小提籃</p>
+            </td>
+            <td>
+                <img src="image/wax/3-4.jpg" class="n-img" alt="alt" >
+                <p class="ptable">封蠟工具組</p>
+            </td>
+            <td>
+                <img src="image/wax/3-6.jpg" class="n-img" alt="alt" >
+                <p class="ptable">封蠟包裝</p>
+            </td>
+    </table>
+    <table>
+        <tr>
+            <td>
+                <img src="image/wax/3-20.jpg" class="n-img" alt="alt" >
+                <p class="ptable">鋼製印章</p>
+            </td>
+            
+            <td>
+                <img src="image/wax/3-21.jpg" class="n-img" alt="alt" >
+                <p class="ptable">封蠟粒</p>
+            </td>
+            <td>
+                <img src="image/small/2-20.jpg" class="n-img" alt="alt" >
+                <p class="ptable">陶瓷風鈴</p>
+            </td>
+            <td>
+                <img src="image/weave/4-8.jpg" class="n-img" alt="alt" >
+                <p class="ptable">編織吊飾</p>
+            </td>
+    </table>            
+        
+            </div>
+        </div>
+            
+       
+    </body>
+    
+</html>

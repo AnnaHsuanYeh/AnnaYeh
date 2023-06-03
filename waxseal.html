@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Anna's handmade shop</title>
+        <meta charset="UTF-8">
+        <!-- CSS only --> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+        <style>
+            .navbar{
+                background-color:#FEBEB0 !important;
+            }
+            .navbar-brand{
+                color:#F7F1ED;
+            }
+            .active{
+                color:#3D5A5B !important;
+            }
+            .nav-link{
+                color:#2F365F;
+            }
+            .nav-link:hover{
+                border-top: 2px white solid;
+                border-bottom: 2px white solid;
+            }
+            .p-5{
+                background-image: url('image/36.jpg');
+                background-size:cover;
+                height:600px
+            
+            }
+            video{
+                width:100%;
+                
+                border-radius:8px;
+                padding:8px;
+                border:3px #FEBEB0 solid;
+                box-shadow: 3px 3px 3px gray;
+            }
+            .div-img{ 
+            width:100%;
+            height:100%;
+            border-radius:8px;
+            padding:8px;
+            border:3px #FEBEB0 solid;
+            box-shadow: 3px 3px 3px gray;
+            
+            }
+            
+            audio{ 
+            width:100%;
+            border-radius:8px;
+            padding:8px;
+            border:3px #FEBEB0 solid;
+            box-shadow: 3px 3px 3px gray;
+            
+            }
+            footer{
+                position:fixed;
+                bottom:0px;
+                width:100%;
+                text-align: center;
+                background-color:#F7F1ED;
+                padding:8px;
+            }
+            #ex1{margin:10px;}
+            .n-img{ 
+            width:300px;
+            height:200px;
+            border-radius:8px;
+            text-align:center;
+            margin-right: 35px;
+            
+            }
+            .ta{
+                margin-left:20px;
+                margin-right:20px;}
+            
+            .ptable{
+                margin-right:50px;
+                text-align:center;
+                margin-bottom: 40px;}
+            .btn{ 
+                background-color:#FEBEB0;
+                color:#3D5A5B;
+                border:1px #3D5A5B solid;
+                width: 100px;
+                height:40px;
+                text-align: center;
+                font-weight:bolder;
+            }
+            .btn:hover{
+                background-color:#F7F1ED;
+                color:#3D5A5B;}
+            .btn:focus{
+                background-color:#F7F1ED;
+                color:#3D5A5B;}
+            
+        </style>
+        
+    </head>
+    <body>
+        <!--導覽列-->
+        <nav class="navbar navbar-expand-lg bg-light fixed-top" > 
+            <div class="fixed-top"></div>
+        <div class="container-fluid">
+           
+          <a class="navbar-brand" href="index.html">Anna's Handmade Shop</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">首頁</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="about.html">關於我們</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="news.html">新消息</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  商品
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="postcard.html">明信片</a></li>
+                  <li><a class="dropdown-item" href="waxseal.html">封蠟</a></li>
+                  <li><a class="dropdown-item" href="smallthing.html">雜貨。小物</a></li>
+                  <li><a class="dropdown-item" href="weave.html">編織</a></li>
+                  
+                </ul>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="service.html">服務</a>
+              </li>
+               
+            </ul>
+              <form class="d-flex" role="search" action='http://www.google.com/search' target="blank">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name='q'>
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+        </nav>
+        
+        <!--標頭區-->
+        <div class="p-5 mb-4 bg-light ">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">封蠟商品</h1>
+        <p class="col-md-8 fs-4"></p>
+        <a href="https://www.youtube.com/watch?v=KsbZF_ttzyc" target="blank"><button class="btn" type="button">作品分享</button></a>
+        
+      </div>
+    </div>
+        
+        <div class="ta">
+            <div>
+                <h3>★封蠟</h3>
+                <p>封蠟，又稱火漆（sealing wax），是歐洲傳統用於封口信件或瓶口的一種蠟材料，往往易熔化、具有黏性並且熔化後迅速凝固。主要用松脂、石蠟等加以顏料製成。</p>
+                <p>火漆常常預製成兩側印有圖案的四角棒狀，直接加熱一端使其滴落；有時製成顆粒狀，此時往往盛於金屬製的火漆勺中，置於火焰上加熱。包裝火漆的盒中，常附有用於加熱的蠟燭。
+                    用於封緘信封時，使其熔化並滴與信封之上，待凝固前緊緊蓋刻有紋章徽記等圖案的金屬印章於上。</p>
+                
+    <table>
+        <tr>
+            <td>
+                <img src="image/wax/3-7.jpg" class="n-img" alt="alt" >
+                <p class="ptable">封蠟片</p>
+            </td>
+            <td>
+                <img src="image/wax/3-8.jpg" class="n-img" alt="alt" >
+                <p class="ptable">乾燥花封蠟</p> 
+            </td>
+            <td>
+                <img src="image/wax/3-6.jpg" class="n-img" alt="alt" >
+                <p class="ptable">封蠟包裝</p> 
+            </td>
+            <td>
+                <img src="image/wax/3-10.jpg" class="n-img" alt="alt" >
+                <p class="ptable">封蠟信封</p>
+            </td>
+            
+        </tr> 
+    </table>
+    <table>
+        <tr>
+            <td>
+                <img src="image/wax/3-11.jpg" class="n-img" alt="alt" >
+                <p class="ptable">封蠟印章</p>
+            </td>
+            <td>
+                <img src="image/wax/3-12.jpg" class="n-img" alt="alt" >
+                <p class="ptable">愛心蠟粒</p> 
+            </td>
+            <td>
+                <img src="image/wax/3-20.jpg" class="n-img" alt="alt" >
+                <p class="ptable">鋼製印章</p> 
+            </td>
+            <td>
+                <img src="image/wax/3-19.jpg" class="n-img" alt="alt" >
+                <p class="ptable">封蠟印章手柄</p>
+            </td>
+            
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>
+                <img src="image/wax/3-21.jpg" class="n-img" alt="alt" >
+                <p class="ptable">八角蠟粒</p>
+            </td>
+            <td>
+                <img src="image/wax/3-26.jpg" class="n-img" alt="alt" >
+                <p class="ptable">封蠟 & 信封/喜帖組</p> 
+            </td>
+            <td>
+                <img src="image/wax/3-23.jpg" class="n-img" alt="alt" >
+                <p class="ptable">封蠟筆記本</p> 
+            </td>
+            <td>
+                <img src="image/wax/3-27.jpg" class="n-img" alt="alt" >
+                <p class="ptable">封蠟 & 木製印章組</p>
+            </td>
+            
+        </tr> 
+    </table>
+            </div>
+        </div>
+            
+       
+    </body>
+    <footer>
+        版權所有 翻拷必究
+    </footer>
+</html>

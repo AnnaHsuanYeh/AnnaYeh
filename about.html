@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Anna's handmade shop</title>
+        <meta charset="UTF-8">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+        <style>
+            .navbar{
+                background-color:#FEBEB0 !important;
+            }
+            .navbar-brand{
+                color:#F7F1ED;
+            }
+            .active{
+                color:#3D5A5B !important;
+            }
+            .nav-link{
+                color:#2F365F;
+            }
+            .nav-link:hover{
+                border-top: 2px white solid;
+                border-bottom: 2px white solid;
+            }
+            .p-5{
+                background-image: url('image/7.jpg');
+                background-size:cover;
+            
+            }
+            video{
+                width:100%;
+                
+                border-radius:8px;
+                padding:8px;
+                border:3px #FEBEB0 solid;
+                box-shadow: 3px 3px 3px gray;
+            }
+            .div-img{ 
+            width:100%;
+            height:100%;
+            border-radius:8px;
+            padding:8px;
+            border:3px #FEBEB0 solid;
+            box-shadow: 3px 3px 3px gray;
+            
+            }
+            
+            audio{ 
+            width:100%;
+            border-radius:8px;
+            padding:8px;
+            border:3px #FEBEB0 solid;
+            box-shadow: 3px 3px 3px gray;
+            
+            }
+            footer{
+                
+                position:fixed;
+                bottom:0px;
+                width:100%;
+                text-align: center;
+                background-color:#F7F1ED;
+                padding:3px;
+            }
+            .btn{ background-color:#F7F1ED; }
+            .btn:hover{
+                background-color:#FEBEB0;
+                border: 1px solid #2F365F; 
+                color:#2F365F; 
+            }
+            .btn:focus{background-image: url('image/wax/3-1.jpg');
+                       background-size: contain;
+                       border: 1px solid #2F365F;
+                       color:#F7F1ED;
+            }
+            .btn-clo{ 
+                background-color:#F7F1ED;
+                border-radius:5px;
+                border: 1px solid #F7F1ED;
+            }
+            .btn-clo:hover{
+                background-color:#FEBEB0;
+                border: 1px solid #2F365F; 
+                color:#2F365F; }
+            container{margin-bottom:100px;
+                
+            }
+                
+        </style>
+        
+    </head>
+    <body>
+        <!--導覽列-->
+        <nav class="navbar navbar-expand-lg bg-light fixed-top" > 
+            <div class="fixed-top"></div>
+        <div class="container-fluid">
+            
+          <a class="navbar-brand" href="index.html">Anna's Handmade Shop</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">首頁</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="about.html">關於我們</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="news.html">新消息</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  商品
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="postcard.html">明信片</a></li>
+                  <li><a class="dropdown-item" href="waxseal.html">封蠟</a></li>
+                  <li><a class="dropdown-item" href="smallthing.html">雜貨.小物</a></li>
+                  <li><a class="dropdown-item" href="weave.html">編織</a></li>
+                  
+                </ul>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="service.html">服務</a>
+              </li>
+               
+            </ul>
+              <form class="d-flex" role="search" action='http://www.google.com/search' target="blank">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name='q'>
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+        </nav>
+        
+        <!--標頭區-->
+        <div class="p-5 mb-4 bg-light">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">歡迎光臨安娜的手作店</h1>
+        <p class="col-md-8 fs-4">我們創立於2019年，主要販售的是手作商品。手作的商品每個都是獨一無二，讓我們能感受手作的溫度，歡迎來網站選購我們的商品，並歡迎來電訂作客製化商品。</p>
+        <button class="btn btn-lg" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">手作課程</button>
+      </div>
+    </div>
+        
+        <div class="container">
+            <div class="row">
+                <p>About us</p>
+                <p>安娜手作是一間在台南的手作雜貨店，店內販售雜貨、手作商品、選物，
+                    還有手作教室做教學。
+                    我們的店內可以看到實體作品，有空歡迎來台南逛逛喔!!</p>
+                    
+                <p>店內手作商品，拍照、包裝、出貨都是由我們的員工一手包辦
+                   如果有疏失或服務不周的地方還請多多見諒!!
+                   對於出售的商品若有任何問題歡迎私訊詢問~~</p>
+                <p>謝謝！</p>
+
+            </div>
+        </div>
+            
+       
+    </body>
+    <footer>
+        版權所有 翻拷必究
+    </footer>
+    <!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">手作課程報名說明</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <p>報名手作課程請先付訂金，才算報名成功喔!!</p>
+          <img src="image/37.png" alt="alt" style='width:100%'/>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn-clo" data-bs-dismiss="modal">關閉</button>
+        <a href="news.html"><button type="button" class="btn-clo">前往報名</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+</html>
